@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    <style name="Theme.App.Starting" parent="Theme.SplashScreen">-->
+    <!--        &lt;!&ndash; Set the splash screen background, animated icon, and animation duration. &ndash;&gt;-->
+    <!--        <item name="windowSplashScreenBackground">@color/mcdYellow</item>-->
+
+    <!--        &lt;!&ndash; Use windowSplashScreenAnimatedIcon to add either a drawable or an-->
+    <!--             animated drawable. One of these is required. &ndash;&gt;-->
+    <!--        <item name="windowSplashScreenAnimatedIcon">@drawable/startup_image_layer_list</item>-->
+    <!--        &lt;!&ndash; Required for animated icons &ndash;&gt;-->
+    <!--        <item name="windowSplashScreenAnimationDuration">300</item>-->
+
+    <!--        &lt;!&ndash; Set the theme of the Activity that directly follows your splash screen. &ndash;&gt;-->
+    <!--        &lt;!&ndash; Required &ndash;&gt;-->
+    <!--        <item name="postSplashScreenTheme">@style/Base.Theme.UXDesign.NoActionBar</item>-->
+    <!--    </style>-->
+
+    <style name="roundedCorner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+</resources>

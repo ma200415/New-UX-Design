@@ -2,4 +2,17 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="login_button_text">20sp</dimen>
+    <dimen name="login_button_width">150dp</dimen>
+    <dimen name="login_button_margin_top">12dp</dimen>
+    <dimen name="bottom_nav_height">80dp</dimen>
+    <dimen name="rounded_corner_view_radius">15dp</dimen>
+    <dimen name="rounded_corner_view_border_width">1dp</dimen>
+    <dimen name="food_menu_item_margin">25dp</dimen>
+    <dimen name="layout_margin">15dp</dimen>
+    <dimen name="current_mcd_layout_margin">15dp</dimen>
+    <dimen name="new_menu_item_margin">10dp</dimen>
+    <dimen name="food_edit_min_height">180dp</dimen>
+    <dimen name="order_recall_item_margin">5dp</dimen>
+    <dimen name="order_recall_item_min_height">100dp</dimen>
 </resources>

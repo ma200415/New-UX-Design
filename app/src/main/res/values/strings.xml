@@ -1,6 +1,15 @@
 <resources>
-    <string name="app_name">New UX Design</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">MCD UX</string>
+    <string name="home">Home</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_your_password">Forgot your password</string>
+    <string name="login">Login</string>
+    <string name="login_with_guest">Login with Guest</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="menu">Menu</string>
+    <string name="delivery">Delivery</string>
+    <string name="order">Order</string>
+    <string name="mcd_desc">McDonald\'s is the world\'s big fast food chain The store group is also facing The most criticized international express One of the dining groups.</string>
 </resources>

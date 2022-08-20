@@ -8,18 +8,29 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.mcd.newuxdesign.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:label=""
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_McdDescFragment"
+            app:destination="@id/navigation_mcd_desc" />
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.mcd.newuxdesign.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_food_menu"
+        android:name="com.mcd.newuxdesign.ui.food_menu.FoodMenuFragment"
+        android:label=""
+        tools:layout="@layout/fragment_food_menu" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.mcd.newuxdesign.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_order_history"
+        android:name="com.mcd.newuxdesign.ui.order_history.OrderHistoryFragment"
+        android:label=""
+        tools:layout="@layout/fragment_order_history" />
+
+    <fragment
+        android:id="@+id/navigation_mcd_desc"
+        android:name="com.mcd.newuxdesign.ui.home.McdDescFragment"
+        android:label=""
+        tools:layout="@layout/fragment_mcd_desc" />
 </navigation>

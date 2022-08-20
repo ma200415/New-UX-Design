@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="mcdYellow">#ffbc0d</color>
+    <color name="loginButton">#AAD400</color>
+    <color name="greetingBanner">#E963FF</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#A5A5A5</color>
+    <color name="darkGray">#393939</color>
+    <color name="appBarGray">#E7E7E7</color>
 </resources>
