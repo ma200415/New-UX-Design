@@ -4,10 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2445" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/border_black.xml" value="0.1135" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_alipay.xml" value="0.2425" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2445" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2445" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_delivery_menu.xml" value="0.245" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_edit_icon.xml" value="0.1135" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_food_menu_dessert_icon.xml" value="0.1135" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_food_menu_drink_icon.xml" value="0.1135" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_food_menu_new_icon.xml" value="0.1135" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_forgot_your_password.xml" value="0.2525" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.245" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_home_menu.xml" value="0.245" />
@@ -16,18 +21,24 @@
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_menu_menu.xml" value="0.245" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.245" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/ic_welcome.xml" value="0.2525" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/order_action_button.xml" value="0.1135" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/rounded_corner_view_black.xml" value="0.1135" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/drawable/rounded_corner_view_red.xml" value="0.2525" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/activity_login.xml" value="0.45260416666666664" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/activity_main.xml" value="0.4671875" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/ad_banner_layout.xml" value="0.4661458333333333" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/current_mcd_layout.xml" value="0.4671875" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_dashboard.xml" value="0.4671875" />
-        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_food_menu.xml" value="0.4671875" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_food_editor.xml" value="0.42857142857142855" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_food_menu.xml" value="0.39444444444444443" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_foodmenu.xml" value="0.4671875" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_home.xml" value="0.3958974358974359" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_mcd_desc.xml" value="0.4671875" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_new_menu.xml" value="0.4671875" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_order_history.xml" value="0.4671875" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/fragment_orderhistory.xml" value="0.4671875" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/order_action_layout.xml" value="0.5714285714285714" />
+        <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/layout/special_office_menu_layout.xml" value="0.4671875" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/menu/bottom_nav_menu.xml" value="0.4671875" />
         <entry key="..\:/Users/bLinK/Desktop/Work/NewUXDesign/app/src/main/res/menu/menu_main.xml" value="0.4671875" />
       </map>

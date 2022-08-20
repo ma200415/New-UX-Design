@@ -13,6 +13,6 @@
     <dimen name="current_mcd_layout_margin">15dp</dimen>
     <dimen name="new_menu_item_margin">10dp</dimen>
     <dimen name="food_edit_min_height">180dp</dimen>
-    <dimen name="order_recall_item_margin">5dp</dimen>
-    <dimen name="order_recall_item_min_height">100dp</dimen>
+    <dimen name="order_history_item_margin">5dp</dimen>
+    <dimen name="order_history_item_min_height">100dp</dimen>
 </resources>

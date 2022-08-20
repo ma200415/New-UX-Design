@@ -11,5 +11,12 @@
     <string name="menu">Menu</string>
     <string name="delivery">Delivery</string>
     <string name="order">Order</string>
+    <string name="new_food">New</string>
+    <string name="food">Food</string>
+    <string name="dessert">Dessert</string>
+    <string name="drink">Drink</string>
+    <string name="order_now">Order Now</string>
+    <string name="favorite_order">Favorite order</string>
     <string name="mcd_desc">McDonald\'s is the world\'s big fast food chain The store group is also facing The most criticized international express One of the dining groups.</string>
+    <string name="order_history">Order History</string>
 </resources>

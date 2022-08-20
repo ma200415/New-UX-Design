@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/order_action_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkGray"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/order_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="serif"
+        android:text="@string/order_now"
+        android:textSize="@dimen/login_button_text"
+        android:textStyle="bold"
+        app:backgroundTint="@color/red" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="serif"
+        android:text="@string/favorite_order"
+        android:textSize="@dimen/login_button_text"
+        android:textStyle="bold"
+        app:backgroundTint="@color/gray" />
+</androidx.appcompat.widget.LinearLayoutCompat>

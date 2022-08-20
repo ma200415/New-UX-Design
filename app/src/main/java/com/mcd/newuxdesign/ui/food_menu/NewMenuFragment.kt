@@ -1,4 +1,4 @@
-package com.mcd.newuxdesign.ui.home
+package com.mcd.newuxdesign.ui.food_menu
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.mcd.newuxdesign.R
-import com.mcd.newuxdesign.databinding.FragmentHomeBinding
+import com.mcd.newuxdesign.databinding.FragmentNewMenuBinding
 
-class HomeFragment : Fragment() {
-    private var _binding: FragmentHomeBinding? = null
+class NewMenuFragment : Fragment() {
+    private var _binding: FragmentNewMenuBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -21,9 +21,9 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentNewMenuBinding.inflate(inflater, container, false)
 
-        binding.homeImageview.setOnClickListener { findNavController().navigate(R.id.action_HomeFragment_to_McdDescFragment) }
+        binding.firstItem.setOnClickListener { findNavController().navigate(R.id.action_NewMenuFragment_to_FoodEditorFragment) }
 
         return binding.root
     }

@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.mcd.newuxdesign.R
 import com.mcd.newuxdesign.databinding.FragmentOrderHistoryBinding
 
 class OrderHistoryFragment : Fragment() {
@@ -20,6 +22,8 @@ class OrderHistoryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentOrderHistoryBinding.inflate(inflater, container, false)
+
+        binding.orderActionLayout.orderNow.setOnClickListener { findNavController().navigate(R.id.action_OrderHistoryFragment_to_FoodEditorFragment) }
 
         return binding.root
     }

@@ -13,24 +13,67 @@
 
         <action
             android:id="@+id/action_HomeFragment_to_McdDescFragment"
-            app:destination="@id/navigation_mcd_desc" />
+            app:destination="@id/navigation_mcd_desc"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
 
     <fragment
         android:id="@+id/navigation_food_menu"
         android:name="com.mcd.newuxdesign.ui.food_menu.FoodMenuFragment"
         android:label=""
-        tools:layout="@layout/fragment_food_menu" />
+        tools:layout="@layout/fragment_food_menu">
 
-    <fragment
-        android:id="@+id/navigation_order_history"
-        android:name="com.mcd.newuxdesign.ui.order_history.OrderHistoryFragment"
-        android:label=""
-        tools:layout="@layout/fragment_order_history" />
+        <action
+            android:id="@+id/action_FoodMenuFragment_to_NewMenuFragment"
+            app:destination="@id/navigation_new_menu"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_mcd_desc"
         android:name="com.mcd.newuxdesign.ui.home.McdDescFragment"
         android:label=""
         tools:layout="@layout/fragment_mcd_desc" />
+
+    <fragment
+        android:id="@+id/navigation_new_menu"
+        android:name="com.mcd.newuxdesign.ui.food_menu.NewMenuFragment"
+        android:label="@string/new_food"
+        tools:layout="@layout/fragment_new_menu">
+
+        <action
+            android:id="@+id/action_NewMenuFragment_to_FoodEditorFragment"
+            app:destination="@id/navigation_food_editor"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_food_editor"
+        android:name="com.mcd.newuxdesign.ui.food_menu.FoodEditorFragment"
+        android:label="@string/new_food"
+        tools:layout="@layout/fragment_food_editor" />
+
+    <fragment
+        android:id="@+id/navigation_order_history"
+        android:name="com.mcd.newuxdesign.ui.order_history.OrderHistoryFragment"
+        android:label="@string/order_history"
+        tools:layout="@layout/fragment_order_history">
+
+        <action
+            android:id="@+id/action_OrderHistoryFragment_to_FoodEditorFragment"
+            app:destination="@id/navigation_food_editor"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 </navigation>

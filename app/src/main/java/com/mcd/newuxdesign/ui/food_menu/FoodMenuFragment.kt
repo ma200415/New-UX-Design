@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.mcd.newuxdesign.R
 import com.mcd.newuxdesign.databinding.FragmentFoodMenuBinding
 
 class FoodMenuFragment : Fragment() {
@@ -20,6 +22,8 @@ class FoodMenuFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentFoodMenuBinding.inflate(inflater, container, false)
+
+        binding.newMenu.setOnClickListener { findNavController().navigate(R.id.action_FoodMenuFragment_to_NewMenuFragment) }
 
         return binding.root
     }
