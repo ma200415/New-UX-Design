@@ -11,12 +11,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_mcd_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NewUXDesign"
         tools:targetApi="31">
 
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +24,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.NewUXDesign" />
     </application>
 </manifest>

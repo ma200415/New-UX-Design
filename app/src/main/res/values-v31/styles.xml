@@ -11,13 +11,12 @@
         <!-- Required for animated icons -->
         <item name="windowSplashScreenAnimationDuration">300</item>
 
+        <item name="android:windowSplashScreenBrandingImage">
+            @drawable/branding_image_layer_list
+        </item>
+
         <!-- Set the theme of the Activity that directly follows your splash screen. -->
         <!-- Required -->
         <item name="postSplashScreenTheme">@style/Theme.NewUXDesign</item>
-    </style>
-
-    <style name="roundedCorner" parent="">
-        <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">30dp</item>
     </style>
 </resources>

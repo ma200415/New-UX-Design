@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="240dp"
+        android:height="226dp"
+        android:drawable="@drawable/startup_icon"
+        android:gravity="center"
+        android:viewportWidth="240"
+        android:viewportHeight="226" />
+</layer-list>
