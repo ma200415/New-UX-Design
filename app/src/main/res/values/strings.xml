@@ -19,4 +19,8 @@
     <string name="favorite_order">Favorite order</string>
     <string name="mcd_desc">McDonald\'s is the world\'s big fast food chain The store group is also facing The most criticized international express One of the dining groups.</string>
     <string name="order_history">Order History</string>
+    <string name="chicken">Chicken</string>
+    <string name="beef">Beef</string>
+    <string name="pork">Pork</string>
+    <string name="salad">Salad</string>
 </resources>

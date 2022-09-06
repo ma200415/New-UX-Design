@@ -6,21 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.McdDescFragment">
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/materialTextView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_image" />
+
     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
         android:autoSizeMaxTextSize="50sp"
         android:autoSizeMinTextSize="20sp"
         android:autoSizeStepGranularity="1sp"
         android:autoSizeTextType="uniform"
         android:fontFamily="serif"
-        android:padding="40dp"
         android:text="@string/mcd_desc"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/ad_banner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/appCompatImageView" />
 
     <include
         android:id="@+id/ad_banner"
